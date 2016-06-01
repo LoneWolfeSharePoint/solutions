@@ -1,1 +1,32 @@
+﻿body
+{
+}
 
+/* Desktop View */
+@media (min-width: 992px) {
+    section {
+        float:left;
+        width: 33.33%;
+    }
+}
+
+/* Tablet View */
+@media (min-width: 768px) and (max-width: 991px) {
+   #s1, #s2, #s3 {
+       float: left;
+   }
+    #s1, #s2 {
+        width: 50%;
+    }
+    #s3 {
+        width: 100%;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 767px) {
+    section {
+        float: left;
+        width: 100%;
+    }
+}
