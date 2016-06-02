@@ -2,22 +2,23 @@
 * {
   box-sizing: border-box;
   }
-body {
-    width: 100%;
-}
 h1 {
     text-align: center;
+    margin-bottom: 40px;
 }
 div {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    border: 1px solid black;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 90px;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-right: 0;
+    text-align:center;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
     font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 section {
     float:left;
@@ -26,7 +27,7 @@ section {
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    margin: 10px;
+    margin-bottom: 10px;
     background-color: #e0e0e0;
     border: 1px solid black;
 }
@@ -35,11 +36,9 @@ section {
 }
 #d2 {
     background-color: #49ff00;
-    border: 1px solid black;
 }
 #d3 {
     background-color: #efd252;
-    border: 1px solid black;
 }
 
 /* Desktop View */
