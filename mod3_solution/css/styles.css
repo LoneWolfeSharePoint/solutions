@@ -1,1 +1,59 @@
+body {
+  font-size: 16px;
+  color: white;
+  background-color: #ffffff;
+  font-family: 'Slabo 27px', serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #236b8e;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 { /* Company Name */
+  font-family: 'Slabo 27px', serif;
+  color: black;
+  font-weight: bold;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#nav-list {
+  margin-top: 0px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+h2 { /* Our Menu Page Heading*/
+    margin-bottom: 15px;
+    color: black;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+
+  #main-content { /* Main Content */
+      background-color: #236b8e;
+      height: 1000px;
+      text-align: center;
+      padding: 10px;
+  }
+ 
 
